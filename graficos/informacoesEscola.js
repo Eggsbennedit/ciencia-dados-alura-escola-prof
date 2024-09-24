@@ -1,4 +1,4 @@
-const url = 'https://raw.githubusercontent.com/Eggsbennedit/ciencia-dados-escola-solo/main/dados-escola.json'
+const url = 'graficos/total_pessoas.json'
 
 async function vizualizarInformacoesGlobais() {
     const res = await fetch(url)
